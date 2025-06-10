@@ -1,0 +1,45 @@
+{
+    "name": "TwoPointsQuadInput",
+    "maps": [
+        {
+            "name": "HighDistanceLoader",
+            "id": "dac1a44f-6294-4b55-904a-16587145dce8",
+            "actions": [
+                {
+                    "name": "SetByPressAndRelease",
+                    "type": "Button",
+                    "id": "980246c9-9c9c-4627-b44e-0cbfff1b4f5d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6bae3686-94bf-4f93-8d0a-1e857c9842f0",
+                    "path": "<XRController>{RightHand}/joystickClicked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SetByPressAndRelease",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0c71123d-cd29-40da-b894-74b4aaf3b72f",
+                    "path": "<Keyboard>/p",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SetByPressAndRelease",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

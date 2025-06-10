@@ -10,8 +10,17 @@ namespace Eloi.TwoPoints {
         public Color m_debugDrawColor = Color.yellow;
         private void Reset()
         {
-            m_pointA = transform;
-            m_pointB = transform;
+            
+            int childCount = transform.childCount;
+            if (childCount >0)
+            {
+                m_pointA = transform.GetChild(0);
+            }
+            if (childCount > 1)
+            {
+                m_pointB = transform.GetChild(1);
+            }
+
         }
         public float GetDistance()
         {

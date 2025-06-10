@@ -39,7 +39,20 @@ public class TwoPointsMono_ObserverDistanceBetweenPoints : MonoBehaviour
 
         }
 
-    private void CheckForDistance()
+        [ContextMenu("Force Push Current Distance")]
+        public void ForcePushCurrentDistance()
+        {
+            if (m_startPoint == null || m_endPoint == null)
+            {
+                return;
+            }
+            float newDistance = Vector3.Distance(m_startPoint.position, m_endPoint.position);
+            m_distanceBetweenPoints = newDistance;
+            m_onDistanceChanged?.Invoke(newDistance);
+            
+        }
+
+        private void CheckForDistance()
     {
         if (m_startPoint == null || m_endPoint == null)
         {

@@ -3,9 +3,6 @@ using UnityEngine;
 using UnityEngine.Events;
 
 namespace Eloi.TwoPoints {
-
-
-    
     public class TwoPointsMono_TriggerDistanceObserved : MonoBehaviour
     {
         public float m_currentDistance;
