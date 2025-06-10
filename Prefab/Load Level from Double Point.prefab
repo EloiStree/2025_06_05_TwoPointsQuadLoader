@@ -61,6 +61,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5948827030833490841}
+  - component: {fileID: 5694003903524148976}
   m_Layer: 0
   m_Name: Load Level from Double Point
   m_TagString: Untagged
@@ -90,6 +91,23 @@ Transform:
   - {fileID: 3884073311119813538}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5694003903524148976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105450665078413839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7773b1802c3f07745934b68e0d8ee94b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_pointA: {fileID: 4112079912244867324}
+  m_pointB: {fileID: 4694561941363367672}
+  m_distance: 0.36669692
+  m_useDebugDraw: 1
+  m_debugDrawColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
 --- !u!1 &3635222448240480096
 GameObject:
   m_ObjectHideFlags: 0
